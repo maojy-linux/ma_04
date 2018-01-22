@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/png">
+        <file>image/back.png</file>
+        <file>image/stock_home.png</file>
+        <file>image/edit-delete.png</file>
+        <file>image/menu.png</file>
+        <file>image/set_81.png</file>
+        <file>image/work_81.png</file>
+        <file>image/home_81.png</file>
+        <file>image/media-green.png</file>
+        <file>image/media-record.png</file>
+        <file>image/greenStone.png</file>
+        <file>image/maika.png</file>
+        <file>image/set3.png</file>
+        <file>image/background.png</file>
+        <file>image/diancifa.png</file>
+        <file>image/x.png</file>
+        <file>image/y.png</file>
+        <file>image/greenStone_1.png</file>
+        <file>image/media-record_1.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>image/work_81.png</file>
+    </qresource>
+</RCC>

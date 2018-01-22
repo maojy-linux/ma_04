@@ -1,0 +1,29 @@
+#ifndef MOTOR_DEBUG_H
+#define MOTOR_DEBUG_H
+
+#include <QMainWindow>
+
+namespace Ui {
+class motor_debug;
+}
+
+class motor_debug : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    explicit motor_debug(QWidget *parent = 0);
+    ~motor_debug();
+
+private:
+    Ui::motor_debug *ui;
+signals:
+    void display(int num);
+private slots:
+    void on_y_clicked();
+    void on_diancifa_clicked();
+    void on_back_clicked();
+    void on_horizontalSlider_3_valueChanged(int value);
+};
+
+#endif // MOTOR_DEBUG_H
